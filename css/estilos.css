@@ -1,16 +1,29 @@
-body{
+
+body {
     padding-top: 80px;
 }
-.container{
+.container {
     max-width: 1000px;
 }
-header nav img{
+header nav img {
     width: 50px;
     margin: 0 10px 0 10px;
 }
-header img{
-    
+header img {
     width: 100%;
 }
+main section ol li {
+    font-size: 1.5rem;
+}
 
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
 
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }

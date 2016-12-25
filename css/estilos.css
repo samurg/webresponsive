@@ -14,6 +14,9 @@ header img {
 main section ol li {
     font-size: 1.5rem;
 }
+.thumbnail img{
+    width: 320px;
+}
 @media (min-width: 480px) {
     main section ol li {
         font-size: 1.7rem;

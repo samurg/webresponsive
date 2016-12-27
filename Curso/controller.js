@@ -1,4 +1,4 @@
-var app = angular.module("ToDoList", ['LocalStorageModule'])
+var app = angular.module("app", ['LocalStorageModule'])
     .controller("ToDoController", function ($scope, localStorageService) {
         if (localStorageService.get("angular-todoList")) {
             $scope.todo = localStorageService.get("angular-todoList");

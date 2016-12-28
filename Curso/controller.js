@@ -21,3 +21,10 @@ var app = angular.module("app", ['LocalStorageModule'])
             $scope.newActv = {};
         }
     });
+/* 
+    Este modulo de angular utiliza la libreria local storage.
+    Este código es capaz dde comunicarse con el fomulario de la página de inicio al curso
+    sacando por pantalla en forma de lista los valores recogidos y además almacenandolos 
+    en el pc, de esta forma el usuario podra llevar al dia su curso, guardando los temas 
+    que ya a superado/visto.
+*/

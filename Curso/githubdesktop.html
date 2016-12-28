@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Trabajo en equipo</title>
     <meta charset="utf-8">
@@ -8,6 +9,7 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
+
 <body>
     <!-- Header de la pagina de inicio -->
     <header>
@@ -34,9 +36,9 @@
                         <li class="dropdown active">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Curso <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                               <li><a href="inicio.html">Presentación</a></li>
+                                <li><a href="inicio.html">Presentación</a></li>
                                 <li role="separator" class="divider"></li>
-                                <li  class="active"><a href="githubdesktop.html">GitHub Desktop</a></li>
+                                <li class="active"><a href="githubdesktop.html">GitHub Desktop</a></li>
                                 <li role="separator" class="divider"></li>
                                 <li><a href="#">Línea de comandos</a></li>
                                 <li role="separator" class="divider"></li>
@@ -53,14 +55,22 @@
                 <!-- /.navbar-collapse -->
             </div>
         </nav>
-        <div class="banner">
-        <img src="../Imagenes/" class="img-responsive"></div>
     </header>
     <!-- /.header -->
     <!-- Cuerpo de la pagina -->
     <main>
         <!-- Breadcrumb o migas de pan -->
         <div class="container">
+            <!-- Jumbotron -->
+            <section>
+                <div class="jumbotron">
+                    <h1>Tema 1 Trabajo con repositorios en GitHub Desktop</h1>
+                    <p>En este tema veremos como es el trabajo con repositorios en <em>GitHub Desktop</em>.</p>
+                    <p><a class="btn btn-primary btn-lg" href="https://www.udemy.com/git-y-github-completo-desde-cero/" target="_blank" role="button">Ir a Udemy</a></p>
+                </div>
+            </section>
+            <!-- /.Jumbotron -->
+            <!-- Breadcrumb -->
             <section>
                 <ol class="breadcrumb">
                     <li><a href="../index.html">Inicio</a></li>
@@ -68,15 +78,153 @@
                     <li class="active">GitHub Desktop</li>
                 </ol>
             </section>
+            <!-- /.Breadcrumb -->
             <!-- Contenido principal -->
             <section>
-                <!-- El contenido principal de la pagina de inicio contara con dos columnas -->
-                
+                <!-- El contenido principal -->
+
+                <div class="panel-group" id="accordion" role="tablist">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading1">
+                            <h4 class="panel-title">
+                                <a href="#collapse1" data-toggle="collapse" data-parent="accordion">
+                                    Videos 1 y 2
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse1" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="thumbnail">
+                                            <video src="../Videos/t1/0.mp4" frameborder="0" width="100%" controls></video>
+
+                                            <div class="caption">
+                                                <h3>GitHub Desktop</h3>
+                                                <p>Instalación, ejecución y configuración de GitHub Desktop</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="thumbnail">
+                                            <video src="../Videos/t1/1.mp4" frameborder="0" width="100%" controls></video>
+                                            <div class="caption">
+                                                <h3>Creando un proyecto</h3>
+                                                <p>Creación de un proyecto en GitHub.com</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading2">
+                            <h4 class="panel-title">
+                                <a href="#collapse2" data-toggle="collapse" data-parent="accordion">
+                                    Videos 3 y 4
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse2" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="thumbnail">
+                                            <video src="../Videos/t1/2.mp4" frameborder="0" width="100%" controls></video>
+                                            <div class="caption">
+                                                <h3>Clonar repositorio</h3>
+                                                <p>Clonando el repositorio en tu ordenador.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="thumbnail">
+                                            <video src="../Videos/t1/3.mp4" frameborder="0" width="100%" controls></video>
+                                            <div class="caption">
+                                                <h3>Realizando cambios</h3>
+                                                <p>Realizaremos cambios en el codigo y veremos lo que sucede en GitHub Desktop.Creanción de commit.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading3">
+                            <h4 class="panel-title">
+                                <a href="#collapse3" data-toggle="collapse" data-parent="accordion">
+                                    Videos 5 y 6
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse3" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="thumbnail">
+                                            <video src="../Videos/t1/4.mp4" frameborder="0" width="100%" controls></video>
+
+                                            <div class="caption">
+                                                <h3>Subiendo cambios a GitHub.com</h3>
+                                                <p>Guardaremos las modificaciones hechas en nuestro <strong>GitHub Desktop en GitHub.com</strong></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="thumbnail">
+                                            <video src="../Videos/t1/5.mp4" frameborder="0" width="100%" controls></video>
+                                            <div class="caption">
+                                                <h3>Bifurcaciones</h3>
+                                                <p>Veremos la <strong>ramificación</strong>, para el manejo en paralelo de nuestro proyecto.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading4">
+                            <h4 class="panel-title">
+                                <a href="#collapse4" data-toggle="collapse" data-parent="accordion">
+                                    Videos 7 y 8
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse4" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="thumbnail">
+                                            <video src="../Videos/t1/6.mp4" frameborder="0" width="100%" controls></video>
+
+                                            <div class="caption">
+                                                <h3>Cerrando bifurcaciones</h3>
+                                                <p>Realizaremos una fusión o <em>merge</em> en inglés</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-6">
+                                        <div class="thumbnail">
+                                            <video src="../Videos/t1/7.mp4" frameborder="0" width="100%" controls></video>
+                                            <div class="caption">
+                                                <h3>Cerrando bifurcaciones con conflicto</h3>
+                                                <p>Veremos que conflictos nos puede dar una fusión.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
             <!-- /.Contenido principal -->
         </div>
     </main>
-     <footer>
+    <footer>
         <!-- Footer -->
         <div class="container">
             <p class="text-left"><em>Trabajo en equipo &copy; 2017</em></p>
@@ -89,4 +237,5 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
+
 </html>
